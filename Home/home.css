@@ -18,24 +18,49 @@ header{
     float: right;
 }
 
-li{
-    font-family: sans-serif;
-    color: white;
-    font-weight: 500;
-    
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-.nav_bar{
+ul {
     list-style: none;
+    background: #462201;
 }
-
-.nav_bar li {
+ul li {
     display: inline-block;
-    padding: 20px;
-    padding-right: 50px;
+    position: relative;
+}
+ul li a {
+    display:block;
+    padding: 30px 72.4px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    }
+ul li ul.dropdown li {
+    display: block;
+}
+ul li ul.dropdown {
+    width: 100%;
+    background: rgb(177, 54, 46);
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+ul li a:hover {
+    background: rgb(177, 54, 46);
+}
+ul li:hover ul.dropdown {
+    display: block;
 }
 
-.nav_bar li:hover {
-    color: chocolate;
+ul li ul.dropdown :hover{
+    background: black;
+
 
 }
+
+
+
