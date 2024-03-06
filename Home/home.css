@@ -1,0 +1,41 @@
+img {
+    width: 100px;
+    border-radius: 50px;
+    float: left;
+    margin-right: 10px;
+}
+
+body{
+    background-color: #251a16;
+}
+
+header{
+    background-color: #462201;
+    display: flex;
+    width: 65%;
+    justify-content: center;
+    align-items: center;
+    float: right;
+}
+
+li{
+    font-family: sans-serif;
+    color: white;
+    font-weight: 500;
+    
+}
+
+.nav_bar{
+    list-style: none;
+}
+
+.nav_bar li {
+    display: inline-block;
+    padding: 20px;
+    padding-right: 50px;
+}
+
+.nav_bar li:hover {
+    color: chocolate;
+
+}
