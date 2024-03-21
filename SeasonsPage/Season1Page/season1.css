@@ -75,18 +75,19 @@ ul li ul.dropdown :hover{
 }
 
 .wrapper-div{
+    padding-top: 1.5%;
     display: flex;
     flex-direction: row;
     width: 70%;
     height: 1000px;
-    background-color: white;
+    
     margin: auto;
 }
 
 .episode-list{
     display: flex;
     flex-direction: column;
-    background-color:darkgrey;
+    background-color:#3b2007;
     width: 60%;
     height: 1000px;
 }
@@ -115,7 +116,9 @@ ul li ul.dropdown :hover{
 .episode-link{
     display: flex;
     flex-direction: column;
-    background-color: gray;
+    background-color: #553314;
     width: 40%;
     height: 1000px;
+    border-style: solid;
+    border-width: 2px;
 }

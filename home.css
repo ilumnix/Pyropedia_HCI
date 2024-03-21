@@ -201,7 +201,7 @@ p {
     flex-direction: column;
     width: 85%;
     height: 53.85rem;
-    background-color: white;
+    background-color: #462201;
     margin: auto;
     margin-top: 1.4%;
     margin-left:4%;
@@ -220,9 +220,14 @@ p {
 .title-area{
     width:100%;
     height: 5rem;
-    background-color: aqua;
+     
 }
-
+.title-area h1{
+    margin-top: 2%;
+    color: aliceblue;
+    font-size: 3rem ;
+    margin-left: 1.5%;
+}
 .sypnosis{
     width: 30%;
     height: 45rem;
